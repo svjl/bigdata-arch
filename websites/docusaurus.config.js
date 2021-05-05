@@ -1,9 +1,9 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
+  title: 'Big Data Premium',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/bigdata-arch/',
+  url: 'https://svjl.github.io',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -11,9 +11,9 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Big data',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Big Data Logo',
         src: 'img/logo.svg',
       },
       items: [
