@@ -1,0 +1,1 @@
+(self.webpackChunkbigdata=self.webpackChunkbigdata||[]).push([[242],{6545:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/bigdata-arch/blog/tags","slug":"greetings","name":"greetings","count":1,"permalink":"/bigdata-arch/blog/tags/greetings"}')}}]);

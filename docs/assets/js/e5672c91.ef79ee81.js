@@ -1,0 +1,1 @@
+(self.webpackChunkbigdata=self.webpackChunkbigdata||[]).push([[813],{7359:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/bigdata-arch/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/bigdata-arch/blog/tags/docusaurus"}')}}]);
