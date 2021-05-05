@@ -3,7 +3,7 @@ module.exports = {
   title: 'Big Data Premium',
   tagline: 'Dinosaurs are cool',
   url: 'https://svjl.github.io',
-  baseUrl: '/',
+  baseUrl: '/bigdata-arch/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
