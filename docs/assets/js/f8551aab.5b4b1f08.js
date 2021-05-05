@@ -1,1 +1,0 @@
-(self.webpackChunkbigdata=self.webpackChunkbigdata||[]).push([[743],{7574:function(e,t,a){"use strict";a.r(t),a.d(t,{default:function(){return l}});var n=a(7294),u=a(2611);function l(){return n.createElement(u.Z,null,n.createElement("h1",null,"My React page"),n.createElement("p",null,"This is a React page"))}}}]);
