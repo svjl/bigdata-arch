@@ -56,7 +56,6 @@ Choose Hadoop 3.2.2
         <value>localhost</value>
     </property>
     <property>
-        <!-- Shuffle service that needs to be set for Map Reduce applications -->
         <name>yarn.nodemanager.aux-services</name>
         <value>mapreduce_shuffle</value>
     </property>
