@@ -17,13 +17,16 @@ Choose Hadoop 3.2.2
 * C:\bigdata\data\datanode
 
 ## Configration Guide for pseudo-distributed mode
-* C:\bigdata\hadoop-3.2.2\etc\hadoop\core-site.xml
+* Change file at `C:\bigdata\hadoop-3.2.2\etc\hadoop\core-site.xml`
+
+```mdx title="C:\bigdata\hadoop-3.2.2\etc\hadoop\core-site.xml"
 <configuration>
     <property>
         <name>fs.defaultFS</name>
         <value>hdfs://localhost:9000</value>
     </property>
 </configuration>
+```
 
 * C:\bigdata\hadoop-3.2.2\etc\hadoop\hdfs-site.xml
 <configuration>
@@ -65,15 +68,22 @@ Choose Hadoop 3.2.2
 bin\hdfs namenode -format
 
 ## Start services
+```bash
 sbin\start-dfs.cmd
-    NameNode, DateNode
-    http://localhost:9870/
-
 sbin\start-yarn.cmd
-    ResourceManager, NodeManager
-    http://localhost:8088/
-
 bin\mapred.cmd historyserver
-    MapReduce JobHistory Server
-    http://localhost:19888/
+```
+:::tip URLs
+NameNode, DateNode
+http://localhost:9870/
+
+MapReduce JobHistory Server
+http://localhost:19888/
+
+ResourceManager, NodeManager
+http://localhost:8088/
+:::
+
+
+
 
