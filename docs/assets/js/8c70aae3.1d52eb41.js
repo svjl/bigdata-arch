@@ -1,1 +1,0 @@
-(self.webpackChunkbigdata=self.webpackChunkbigdata||[]).push([[548],{4782:function(a){"use strict";a.exports=JSON.parse('{"permalink":"/bigdata-arch/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

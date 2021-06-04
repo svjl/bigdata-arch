@@ -1,0 +1,1 @@
+(self.webpackChunkbigdata=self.webpackChunkbigdata||[]).push([[952],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Greetings!","permalink":"/bigdata-arch/blog/greetings"}]}')}}]);
